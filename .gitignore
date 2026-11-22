@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local data and generated files
+data/raw/
+data/processed/
+*.db
+*.sqlite
+*.sqlite3
+logs/
+runs/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
